@@ -1,0 +1,18 @@
+.page-top ul.breadcrumb {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.page-top {
+    padding-bottom: 25px
+}
+
+.page-top .page-title {
+    color: #65829D;
+    margin-top: 30px
+}
+
+.page-top .page-title:not(.b-none):after {
+    border-bottom: none
+}

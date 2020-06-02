@@ -1,0 +1,416 @@
+body {
+padding-top: 85px;
+}
+
+
+/*Start Navbar*/
+
+.navbar-default {
+
+background-color: #FFF;
+border: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand img {
+width: 220px;
+height: 50px
+}
+
+.navbar-default .navbar-nav {
+    font-size: 17px;
+    font-weight: 800
+} 
+
+.navbar-default .navbar-nav > li {
+    margin-top: 50px;
+    margin-right: 20px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #216A8C;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #216A8C
+}    
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #19A6DF;
+    background: none;
+    border-bottom: 2px solid #76BB43;
+    padding: 0
+}    
+
+.navbar .icons {
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    margin-top: 40px;
+    color: #216A8C
+}
+
+.navbar .icons i {
+    cursor: pointer
+}
+
+
+.navbar-default .navbar-collapse {
+    border: none
+}
+
+.login {
+    width: 300px;
+    height: 280px;
+    background-color: #F8F8F8;
+    position: fixed;
+    z-index: 50;
+    right: 85px;
+    padding: 20px;
+    padding-top: 0;
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login h3 {
+    font-weight: bold;
+    color: #25698A
+}
+
+.login p a {
+    display: inline-block;
+    cursor: pointer
+}
+
+.login p a:hover {
+    color: #25698A
+}
+
+.login button {
+    margin-top: 30px
+}
+
+
+/* slider*/
+
+.carousel .carousel-control {
+    z-index: 25
+}
+
+.carousel .carousel-logo {
+    z-index: 24;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.carousel .carousel-logo .search-bar {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel .carousel-logo .search-bar .form-control {
+    height: 50px;
+    font-size: 21px
+}
+
+.carousel .carousel-logo .search-bar button {
+    height: 50px;
+    color: #25698A;
+    font-weight: bold
+}
+
+.carousel .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15
+}
+
+/*.carousel .ippsol-logo {
+    position: absolute;
+    background-color: white;
+    z-index: 500
+}
+
+.carousel .overlay .search-bar {
+    position: absolute;
+    width: 400px;
+    margin: 0 auto;
+}*/
+
+.carousel .item .img-style {
+    width: 100%
+}
+
+
+
+.footer {
+    background-color: #377594;
+    color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 70px
+}
+
+.footer h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer ul li, .footer button {
+    font-family: 'Merriweather', serif;
+}
+
+.footer .part1 div {
+    float: left;
+    overflow: hidden
+}
+
+.footer .part1 div:nth-child(1) {
+    width: 30%
+}
+
+.footer .part1 div:nth-child(2) {
+    width: 30%
+}
+
+.footer .part1 div:nth-child(3) {
+    width: 40%
+}
+
+.footer .part1 ul {
+    list-style: none;
+    padding: 0
+}
+
+.footer .part2 div {
+    float: left;
+    overflow: hidden
+}
+
+.footer .part2 div:nth-child(1) {
+    width: 60%;
+    margin-top: 20px
+}
+
+.footer .part2 div:nth-child(2) {
+    width: 40%
+}
+
+.footer button {
+    background-color: #76BB43;
+    border: none;
+    width: 110px;
+    height: 30px;
+    font-weight: bold
+}
+
+.footer .part2 div:nth-child(2) .contact {
+    width: 100%
+}
+
+.footer .part2 span {
+    display: inline-block;
+    font-size: 18px;
+    
+}
+
+.footer .part2 span i {
+    margin-right: 10px;
+    float: left
+}
+
+.footer .part2 span p {
+    float: left
+}
+
+.footer .part2 div:nth-child(2) .social-icons {
+    width: 100%
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px
+}
+
+
+
+
+/*Start Scroll Top Button*/
+.scroll-top
+{
+    color: #FFF;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #25698A;
+    width: 50px;
+    text-align: center;
+    display: none;
+    z-index: 60
+}
+
+.scroll-top:hover
+{
+    cursor: pointer
+}
+/*End Scroll Top Button*/
+
+
+
+
+
+
+
+
+
+
+/*Smart phones and Tablets*/
+@media(max-width:767px)
+{
+    .navbar .icons {
+        display: none
+    }   
+}
+
+/*Small Screens*/
+@media(min-width:768px) and (max-width:991px)
+{
+    .navbar-brand img {
+        width: 130px;
+        height: 50px
+    }    
+    
+    .navbar-default .navbar-nav {
+        font-size: 14px
+    }
+    
+    .navbar .icons{
+        font-size: 20px
+    }    
+    
+    .navbar-default .navbar-nav > li {
+        margin-right: 15px
+    }
+    
+    .navbar .icons{
+        font-size: 25px
+    }    
+    
+}
+
+/*medium Screens*/
+@media(min-width:992px) and (max-width:1199px)
+{
+
+    .navbar-brand img {
+        width: 150px;
+        height: 50px
+    }    
+    
+    .navbar-default .navbar-nav {
+        font-size: 16px
+    }
+    
+    .navbar .icons{
+        font-size: 25px
+    }
+
+    /*.navbar-header .nav-custom ul {
+        list-style: none;
+        padding: 0;
+        float: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-right: 10px
+    } 
+
+    .navbar-header .nav-custom ul li {
+        float: left;
+        margin-right: 20px
+    }    
+    
+    .navbar-header .nav-custom .icons {
+        display: inline-block;
+        float: left;
+        font-size: 30px;
+        margin-top: 30px
+    }  */  
+    
+}
+
+@media(min-width: 1200px) {
+    
+    .navbar-default .navbar-nav {
+        font-size: 17px;
+        font-weight: bold;
+    } 
+    
+    .navbar-default .navbar-nav > li {
+        margin-top: 50px;
+        margin-right: 20px
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #216A8C;
+        padding: 0;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #216A8C
+    }    
+    
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #19A6DF;
+        background: none;
+        border-bottom: 2px solid #76BB43;
+        padding: 0
+    }    
+    
+    .navbar .icons {
+        display: inline-block;
+        float: left;
+        font-size: 30px;
+        margin-top: 40px;
+        color: #216A8C
+    }    
+   
+    
+}
+
+
+
+
+
+
+/* custom framework */
+.clearfix {
+    clear: both
+}
+
+.title-style {
+    text-align: center;
+    color: #76BB43;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}

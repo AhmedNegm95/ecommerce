@@ -1,0 +1,12 @@
+.sign {
+    border: 1px solid #DEDEDE;
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    border-radius: 2px
+}
+
+.sign h2 {
+    margin-bottom: 30px
+}

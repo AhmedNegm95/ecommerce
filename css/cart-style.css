@@ -1,0 +1,31 @@
+.btn {
+    font-size: 16px
+}
+
+#quantity_5d4af8393aa6f {
+    font-size: 16px
+}
+
+.cart-v2 .card.card-default .card-body {
+    border: 1px solid #DFDFDF;
+    border-top: none;
+}
+
+.cart_totals_toggle .card-header {
+    border: 1px solid #DFDFDF;
+    border-bottom: none
+}
+
+.page-top ul.breadcrumb {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.page-top {
+    padding-bottom: 25px
+}
+
+.cart_totals_toggle .card-header {
+    border: 1px solid #DFDFDF
+}
